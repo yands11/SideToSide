@@ -1,0 +1,238 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/0a1101bc3b504cd3152a9ec9ad478dec/navigation-ui-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/52ef28ad2d70770ac5dbbfc54e0f2a50/navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/404640d24810fd40b2922172309c6973/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/15ab16af168cea6c1079326abcbac677/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/39a03c328d4d85f1426c81ed092bd98d/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/386fdc8af38a39d981e3277a8e4ec9d6/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/1811648f0ad0aab97f045393080d55ad/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/c8e864327d1a8eab5340af9172ffb2c8/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/c981871bbb993d3746cbe62e26ee4e59/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/30ab7bef9020ecb7f053f6cf9089319e/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/a0aa58fa5f4a1f2bf8648fd179204fac/jetified-fragment-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/211917d685efec8320f2dd30245c7de5/jetified-activity-ktx-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/ebb95c98160f56b007dfb4a7898491af/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/e8ccbf0220925f0e02f5bbf6e51b8b6f/navigation-common-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/52b6bfd42b970105ed725f39e80b8078/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/70790d61256c8aee9e5d6cd76c9bc8aa/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/066d844170480c18715c51c39990d000/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/657633741717db3fd6050e70861d877e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/8f1980af8e53bca6d68f297cd42f828d/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/d18f209f2292e326156adc5507e9a25a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/cb35c4df909319616dc583f790b2c0d3/transition-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/1396521fc2504887540669370135f52b/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/de07cc680c5e9a2cfdc30d0c9136e509/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/a3df95abc81ff26495aa12b055fdcc71/navigation-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/aec8e4ab4e6d09bf737f49b9f4743149/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/799d4eeda3f1b5187a464330b9ede7e0/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/7816f2fd6d8d0b4fddf974713f920910/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/1341decd6dc5a968bc04cc06eb9301ad/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/ced91d6aeee642e8f0d874baeace8542/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/12060edc357e9a42e0408a6072db161c/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/a98e9a322d1f40e1adb8f59fa1a668aa/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/685230ae7ae8fde01f3175d614e2c8d7/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/f865a6720ce54bb861e1eec649f5946a/navigation-common-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/bf7e742b8e2bd142f8331e4ada9188e3/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/e9062d52cd1b0f59855b6287519220d6/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/7ae177faac39d57a06d62f5234b06cb6/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/5035c6dfa26f65748af6be5a1f7ef82a/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/1fa2f65f4ca6f90c2630f21d9bae6384/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/b32e4041a2a97ffe5999842728eb9ec7/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/2868fa03c4b1e1e3d9fe0bdf9acdb400/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/3fde7ef6fb14c82366a9bc848b6439f3/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/05c7e79b906eefc34d1eb9c445dc0bd8/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/983655ed61719764b3a26707a051d3e7/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/d624c8e4c086dfac8c06b55fe4e6c68f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/134749a443c1242fd1d7c3b6f345cb08/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/a5cd45a7ee99cd9ca065fdf91cf25600/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/2b9090d651d2677f98658e82a43546ee/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/d97b1d025664175e1c6832e7048ab8c2/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/2c901ae527ff97197d3fb3ccbdca7da3/print-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:2:1-23:12
+		INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:5:5-21:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/404640d24810fd40b2922172309c6973/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/404640d24810fd40b2922172309c6973/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/386fdc8af38a39d981e3277a8e4ec9d6/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/386fdc8af38a39d981e3277a8e4ec9d6/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/c981871bbb993d3746cbe62e26ee4e59/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/c981871bbb993d3746cbe62e26ee4e59/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/bf7e742b8e2bd142f8331e4ada9188e3/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/bf7e742b8e2bd142f8331e4ada9188e3/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/5035c6dfa26f65748af6be5a1f7ef82a/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/5035c6dfa26f65748af6be5a1f7ef82a/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/134749a443c1242fd1d7c3b6f345cb08/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/134749a443c1242fd1d7c3b6f345cb08/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/bf7e742b8e2bd142f8331e4ada9188e3/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.sidetoside.app.MainActivity
+ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:12:9-20:20
+	android:label
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml:18:27-74
+uses-sdk
+INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/0a1101bc3b504cd3152a9ec9ad478dec/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/0a1101bc3b504cd3152a9ec9ad478dec/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/52ef28ad2d70770ac5dbbfc54e0f2a50/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/52ef28ad2d70770ac5dbbfc54e0f2a50/navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/404640d24810fd40b2922172309c6973/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/404640d24810fd40b2922172309c6973/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/15ab16af168cea6c1079326abcbac677/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/15ab16af168cea6c1079326abcbac677/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/39a03c328d4d85f1426c81ed092bd98d/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/39a03c328d4d85f1426c81ed092bd98d/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/386fdc8af38a39d981e3277a8e4ec9d6/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/386fdc8af38a39d981e3277a8e4ec9d6/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/1811648f0ad0aab97f045393080d55ad/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/1811648f0ad0aab97f045393080d55ad/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/c8e864327d1a8eab5340af9172ffb2c8/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/c8e864327d1a8eab5340af9172ffb2c8/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/c981871bbb993d3746cbe62e26ee4e59/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/c981871bbb993d3746cbe62e26ee4e59/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/30ab7bef9020ecb7f053f6cf9089319e/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/30ab7bef9020ecb7f053f6cf9089319e/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/a0aa58fa5f4a1f2bf8648fd179204fac/jetified-fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/a0aa58fa5f4a1f2bf8648fd179204fac/jetified-fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/211917d685efec8320f2dd30245c7de5/jetified-activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/211917d685efec8320f2dd30245c7de5/jetified-activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/ebb95c98160f56b007dfb4a7898491af/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/ebb95c98160f56b007dfb4a7898491af/jetified-lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/e8ccbf0220925f0e02f5bbf6e51b8b6f/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/e8ccbf0220925f0e02f5bbf6e51b8b6f/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/52b6bfd42b970105ed725f39e80b8078/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/52b6bfd42b970105ed725f39e80b8078/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/70790d61256c8aee9e5d6cd76c9bc8aa/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/70790d61256c8aee9e5d6cd76c9bc8aa/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/066d844170480c18715c51c39990d000/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/066d844170480c18715c51c39990d000/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/657633741717db3fd6050e70861d877e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/657633741717db3fd6050e70861d877e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/8f1980af8e53bca6d68f297cd42f828d/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/8f1980af8e53bca6d68f297cd42f828d/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/d18f209f2292e326156adc5507e9a25a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/d18f209f2292e326156adc5507e9a25a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/cb35c4df909319616dc583f790b2c0d3/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/cb35c4df909319616dc583f790b2c0d3/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/1396521fc2504887540669370135f52b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/1396521fc2504887540669370135f52b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/de07cc680c5e9a2cfdc30d0c9136e509/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/de07cc680c5e9a2cfdc30d0c9136e509/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/a3df95abc81ff26495aa12b055fdcc71/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/a3df95abc81ff26495aa12b055fdcc71/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/aec8e4ab4e6d09bf737f49b9f4743149/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/aec8e4ab4e6d09bf737f49b9f4743149/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/799d4eeda3f1b5187a464330b9ede7e0/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/799d4eeda3f1b5187a464330b9ede7e0/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/7816f2fd6d8d0b4fddf974713f920910/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/7816f2fd6d8d0b4fddf974713f920910/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/1341decd6dc5a968bc04cc06eb9301ad/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/1341decd6dc5a968bc04cc06eb9301ad/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/ced91d6aeee642e8f0d874baeace8542/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/ced91d6aeee642e8f0d874baeace8542/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/12060edc357e9a42e0408a6072db161c/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/12060edc357e9a42e0408a6072db161c/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/a98e9a322d1f40e1adb8f59fa1a668aa/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/a98e9a322d1f40e1adb8f59fa1a668aa/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/685230ae7ae8fde01f3175d614e2c8d7/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/685230ae7ae8fde01f3175d614e2c8d7/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/f865a6720ce54bb861e1eec649f5946a/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/f865a6720ce54bb861e1eec649f5946a/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/bf7e742b8e2bd142f8331e4ada9188e3/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/bf7e742b8e2bd142f8331e4ada9188e3/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/e9062d52cd1b0f59855b6287519220d6/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/e9062d52cd1b0f59855b6287519220d6/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/7ae177faac39d57a06d62f5234b06cb6/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/7ae177faac39d57a06d62f5234b06cb6/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/5035c6dfa26f65748af6be5a1f7ef82a/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/5035c6dfa26f65748af6be5a1f7ef82a/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/1fa2f65f4ca6f90c2630f21d9bae6384/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/1fa2f65f4ca6f90c2630f21d9bae6384/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/b32e4041a2a97ffe5999842728eb9ec7/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/b32e4041a2a97ffe5999842728eb9ec7/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/2868fa03c4b1e1e3d9fe0bdf9acdb400/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/2868fa03c4b1e1e3d9fe0bdf9acdb400/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/3fde7ef6fb14c82366a9bc848b6439f3/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/3fde7ef6fb14c82366a9bc848b6439f3/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/05c7e79b906eefc34d1eb9c445dc0bd8/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/05c7e79b906eefc34d1eb9c445dc0bd8/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/983655ed61719764b3a26707a051d3e7/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/983655ed61719764b3a26707a051d3e7/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/d624c8e4c086dfac8c06b55fe4e6c68f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/d624c8e4c086dfac8c06b55fe4e6c68f/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/134749a443c1242fd1d7c3b6f345cb08/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/134749a443c1242fd1d7c3b6f345cb08/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/a5cd45a7ee99cd9ca065fdf91cf25600/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/a5cd45a7ee99cd9ca065fdf91cf25600/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/2b9090d651d2677f98658e82a43546ee/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/2b9090d651d2677f98658e82a43546ee/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/d97b1d025664175e1c6832e7048ab8c2/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/d97b1d025664175e1c6832e7048ab8c2/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/2c901ae527ff97197d3fb3ccbdca7da3/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/2c901ae527ff97197d3fb3ccbdca7da3/print-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+		ADDED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/youngseok/AndroidProjects/SideToSide/app/src/main/AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/5035c6dfa26f65748af6be5a1f7ef82a/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/5035c6dfa26f65748af6be5a1f7ef82a/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/5035c6dfa26f65748af6be5a1f7ef82a/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/5035c6dfa26f65748af6be5a1f7ef82a/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/youngseok/.gradle/caches/transforms-2/files-2.1/5035c6dfa26f65748af6be5a1f7ef82a/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
