@@ -1160,7 +1160,6 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
-id button_home
 id button_home_second
 id center
 id center_horizontal
@@ -1178,6 +1177,7 @@ id contentPanel
 id coordinator
 id custom
 id customPanel
+id dataBinding
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1202,6 +1202,8 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id gauge_left
+id gauge_right
 id ghost_view
 id gone
 id group_divider
@@ -1216,6 +1218,8 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id iv_left
+id iv_right
 id labeled
 id largeLabel
 id left
@@ -1247,6 +1251,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id outline
 id packed
 id parallax
@@ -1261,6 +1267,7 @@ id radio
 id right
 id right_icon
 id right_side
+id rv
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -1317,8 +1324,8 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textWatcher
 id text_dashboard
-id text_home
 id text_input_password_toggle
 id text_notifications
 id textinput_counter
@@ -1337,6 +1344,8 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv_left
+id tv_right
 id unchecked
 id uniform
 id unlabeled
@@ -1422,6 +1431,7 @@ layout fragment_dashboard
 layout fragment_home
 layout fragment_home_second
 layout fragment_notifications
+layout holder_feed
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

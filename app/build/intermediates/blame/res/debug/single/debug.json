@@ -52,6 +52,10 @@
         "source": "/Users/youngseok/AndroidProjects/SideToSide/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/youngseok/AndroidProjects/SideToSide/app/build/intermediates/res/merged/debug/layout_holder_feed.xml.flat",
+        "source": "/Users/youngseok/AndroidProjects/SideToSide/app/src/main/res/layout/holder_feed.xml"
+    },
+    {
         "merged": "/Users/youngseok/AndroidProjects/SideToSide/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/youngseok/AndroidProjects/SideToSide/app/src/main/res/drawable/ic_launcher_background.xml"
     },
