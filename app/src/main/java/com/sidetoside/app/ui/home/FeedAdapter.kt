@@ -5,12 +5,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.sidetoside.app.databinding.HolderFeedBinding
-import com.sidetoside.app.entity.LeftRight
+import com.sidetoside.app.entity.Compare
 
 
 class FeedAdapter : RecyclerView.Adapter<FeedAdapter.FeedHolder>() {
 
-    private val items by lazy { mutableListOf<LeftRight>() }
+    private val items by lazy { mutableListOf<Compare>() }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FeedHolder =
         FeedHolder(
@@ -27,7 +27,7 @@ class FeedAdapter : RecyclerView.Adapter<FeedAdapter.FeedHolder>() {
         holder.onBind(items[position])
     }
 
-    fun setItems(items: List<LeftRight>) {
+    fun setItems(items: List<Compare>) {
         this.items.clear()
         this.items.addAll(items)
         notifyDataSetChanged()
@@ -38,8 +38,8 @@ class FeedAdapter : RecyclerView.Adapter<FeedAdapter.FeedHolder>() {
         private val root: View = binding.root
     ) : RecyclerView.ViewHolder(root) {
 
-        fun onBind(leftRight: LeftRight) = with(binding) {
-            data = leftRight
+        fun onBind(compare: Compare) = with(binding) {
+            data = compare
             executePendingBindings()
         }
     }

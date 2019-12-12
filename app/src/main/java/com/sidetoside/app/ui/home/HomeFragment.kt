@@ -10,8 +10,9 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.sidetoside.app.R
 import com.sidetoside.app.databinding.FragmentHomeBinding
-import com.sidetoside.app.entity.LeftRight
+import com.sidetoside.app.entity.Compare
 import com.sidetoside.app.entity.Side
+import com.sidetoside.app.entity.User
 
 class HomeFragment : Fragment() {
 
@@ -41,63 +42,47 @@ class HomeFragment : Fragment() {
 
         adapter.setItems(
             listOf(
-                LeftRight(
+                Compare(
                     1,
                     "title",
-                    Side("left", "", 123),
+                    User(
+                        1,
+                        "김치맨",
+                        ""
+                    ),
+                    "",
+                    Side(
+                        "left", "", 123
+                    ),
                     Side("right", "", 123)
                 ),
-                LeftRight(
-                    2,
-                    "title2",
-                    Side("left2", "", 123),
-                    Side("right2", "", 123)
-                ),
-                LeftRight(
+                Compare(
                     1,
                     "title",
-                    Side("left", "", 123),
+                    User(
+                        1,
+                        "김치맨",
+                        ""
+                    ),
+                    "",
+                    Side(
+                        "left", "", 123
+                    ),
                     Side("right", "", 123)
                 ),
-                LeftRight(
-                    2,
-                    "title2",
-                    Side("left2", "", 123),
-                    Side("right2", "", 123)
-                ),
-                LeftRight(
+                Compare(
                     1,
                     "title",
-                    Side("left", "", 123),
+                    User(
+                        1,
+                        "김치맨",
+                        ""
+                    ),
+                    "",
+                    Side(
+                        "left", "", 123
+                    ),
                     Side("right", "", 123)
-                ),
-                LeftRight(
-                    2,
-                    "title2",
-                    Side("left2", "", 123),
-                    Side("right2", "", 123)
-                ), LeftRight(
-                    1,
-                    "title",
-                    Side("left", "", 123),
-                    Side("right", "", 123)
-                ),
-                LeftRight(
-                    2,
-                    "title2",
-                    Side("left2", "", 123),
-                    Side("right2", "", 123)
-                ), LeftRight(
-                    1,
-                    "title",
-                    Side("left", "", 123),
-                    Side("right", "", 123)
-                ),
-                LeftRight(
-                    2,
-                    "title2",
-                    Side("left2", "", 123),
-                    Side("right2", "", 123)
                 )
             )
         )
