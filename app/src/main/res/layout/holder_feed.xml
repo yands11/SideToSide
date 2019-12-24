@@ -22,13 +22,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@{data.title}"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Title" />
+
             <ImageView
                 android:id="@+id/iv_left"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:background="#FFAAAA"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title"
                 tools:src="@drawable/ic_launcher_foreground" />
 
             <TextView
@@ -38,7 +53,7 @@
                 app:layout_constraintBottom_toBottomOf="@+id/iv_left"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@id/iv_left" />
+                app:layout_constraintTop_toBottomOf="@+id/tv_title" />
 
             <ImageView
                 android:id="@+id/iv_right"
@@ -46,7 +61,7 @@
                 android:layout_height="48dp"
                 android:background="#AAAAFF"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title"
                 tools:src="@drawable/ic_launcher_foreground" />
 
             <TextView
