@@ -10,10 +10,12 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.sidetoside.app.AddActivity
 import com.sidetoside.app.App
 import com.sidetoside.app.R
 import com.sidetoside.app.databinding.FragmentHomeBinding
 import com.sidetoside.app.network.CompareAPI
+import com.sidetoside.app.ui.EventObserver
 
 class HomeFragment : Fragment() {
 
@@ -21,10 +23,9 @@ class HomeFragment : Fragment() {
         (requireActivity().application as App).retrofit.create(CompareAPI::class.java)
     }
 
-    private lateinit var vm: HomeViewModel
+    private lateinit var viewModel: HomeViewModel
     private val adapter: FeedAdapter = FeedAdapter()
 
-    private lateinit var homeViewModel: HomeViewModel
     private lateinit var binding: FragmentHomeBinding
 
     override fun onCreateView(
@@ -32,15 +33,19 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        homeViewModel = ViewModelProviders.of(this).get(HomeViewModel::class.java).apply {
-            setup(compareAPI)
-        }.also { this.vm = it }
+
         return DataBindingUtil.inflate<FragmentHomeBinding>(
             inflater,
             R.layout.fragment_home,
             container,
             false
-        ).also { binding = it }.root
+        ).also {
+            it.vm = ViewModelProviders.of(this).get(HomeViewModel::class.java).apply {
+                setup(compareAPI)
+            }.also { viewModel = it }
+            it.lifecycleOwner = this@HomeFragment
+            binding = it
+        }.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -49,7 +54,7 @@ class HomeFragment : Fragment() {
             layoutManager = LinearLayoutManager(requireContext())
             adapter = this@HomeFragment.adapter
         }
-        subscribe(vm.bundle)
+        subscribe(viewModel.bundle)
     }
 
     private fun subscribe(bundle: HomeViewModel.LiveBundle) = with(bundle) {
@@ -57,5 +62,12 @@ class HomeFragment : Fragment() {
             Log.d("TEST", it.toString())
             adapter.setItems(it)
         })
+        clickAddEvent.observe(this@HomeFragment, EventObserver {
+            moveToAddActivity()
+        })
+    }
+
+    private fun moveToAddActivity() {
+        startActivity(AddActivity.getIntent(requireContext()))
     }
 }
