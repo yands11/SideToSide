@@ -8,17 +8,21 @@ import com.sidetoside.app.entity.Compare
 import com.sidetoside.app.network.CompareAPI
 import com.sidetoside.app.ui.Event
 import com.sidetoside.app.ui.setEvent
+import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.plus
 
-class HomeViewModel : ViewModel() {
+class HomeViewModel(
+    private val compareAPI: CompareAPI
+) : ViewModel() {
 
-    private lateinit var compareAPI: CompareAPI
     private val _compares = MutableLiveData<List<Compare>>()
     private val _clickAddEvent = MutableLiveData<Event<Unit>>()
 
-    fun setup(compareAPI: CompareAPI) {
-        this.compareAPI = compareAPI
-        viewModelScope.launch {
+    init {
+        (viewModelScope + CoroutineExceptionHandler { _, t ->
+            t.printStackTrace()
+        }).launch {
             _compares.postValue(compareAPI.getCompares().body())
         }
     }
