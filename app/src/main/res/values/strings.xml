@@ -5,4 +5,12 @@
 
     <string name="main">Side to Side</string>
 
+    <string name="title">제목</string>
+    <string name="complete">완료</string>
+    <string name="input_title">제목을 입력하세요</string>
+
+    <string name="side_one">Side #1</string>
+    <string name="input_side_name">비교할 대상을 입력하세요</string>
+    <string name="side_two">Side #2</string>
+
 </resources>
